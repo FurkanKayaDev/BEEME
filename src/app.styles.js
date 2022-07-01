@@ -1,0 +1,55 @@
+import {StyleSheet} from 'react-native';
+
+export default StyleSheet.create({
+  container: {
+    backgroundColor: 'white',
+    marginHorizontal: 20,
+    flex: 1,
+  },
+  image: {
+    justifyContent: 'center',
+    backgroundColor: '#fff',
+    shadowColor: '#000',
+    shadowOffset: {width: 1, height: 1},
+    shadowOpacity: 0.4,
+    shadowRadius: 3,
+    elevation: 5,
+    padding: 13,
+    paddingHorizontal: 17,
+    borderRadius: 10,
+    marginLeft: 20,
+  },
+  header: {
+    backgroundColor: '#fff',
+    shadowColor: '#000',
+    shadowOffset: {width: 1, height: 1},
+    shadowOpacity: 0.4,
+    shadowRadius: 3,
+    elevation: 5,
+    paddingVertical: 30,
+    flexDirection: 'row',
+  },
+  header_text: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    flex: 0.8,
+  },
+  btn: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    flex: 0.2,
+    backgroundColor: '#fff',
+    shadowColor: '#000',
+    shadowOffset: {width: 1, height: 1},
+    shadowOpacity: 0.4,
+    shadowRadius: 3,
+    elevation: 5,
+    padding: 13,
+    paddingHorizontal: 17,
+    borderRadius: 20,
+    marginHorizontal: 90,
+  },
+  load: {
+    color: 'black',
+  },
+});
